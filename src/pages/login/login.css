@@ -1,0 +1,69 @@
+.login
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    height: calc(100vh-50px);
+    
+}
+
+.loginTitle
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Varela', sans-serif;
+}
+
+.loginForm
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:start;
+    font-size: 25px;
+    font-family: 'Varela', sans-serif;
+}
+
+.input
+{
+    font-size: 20px;
+    font-family: 'Varela', sans-serif;
+}
+
+.loginButton
+{
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 10px;
+    color: beige;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: aliceblue;
+    color: red;
+}
+
+.registerButton
+{
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 10px;
+    color: beige;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 10%;
+    padding: 5px;
+}
+
+.registerDiv
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

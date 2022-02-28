@@ -1,0 +1,66 @@
+.write
+{
+    padding-top: 55px;
+    font-size: 40px;
+}
+
+.writeFormGroup
+{
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+
+}
+
+.writeImage
+{
+    margin-left: 300px;
+    object-fit: cover;
+    width: 70vw;
+    height: 250px;
+    border-radius: 30px;
+}
+.writeForm
+{
+
+}
+.writeInput
+{
+    font-size: 25px;
+    padding: 12px;
+    width: 80%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.writeIcon
+{
+    font-size: 30px;
+    width: 22px;
+    height: 22px;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    
+}
+
+.writeTextArea
+{
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+    border: 0;
+    overflow: auto;
+}
+
+.writeSubmit
+{
+    margin-left: 300px;
+    font-size: 20px;
+    font-family: 'Varela', sans-serif;
+    background-color: black;
+    border-radius: 10px;
+    color: beige;
+    border: none;
+}

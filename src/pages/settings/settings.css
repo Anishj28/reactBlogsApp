@@ -1,0 +1,84 @@
+.settings
+{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.settingsWrapper
+{
+    flex:9;
+}
+
+.settingsForm
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+.settingsTitle
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+
+.settingsPic
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.settingsPicIcon
+{
+    cursor: pointer;
+}
+
+.image
+{
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.username
+{
+    margin-top: 20px;
+}
+
+.input{
+    width:70%;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.settingsSubmit
+{
+    width:30%;
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 10px;
+    color: beige;
+    border: none;
+    font-size: 20px;
+}
+
+.settingsUpdateTitle
+{
+    cursor: pointer;
+}
+
+.settingsDeleteTitle
+{
+    cursor: pointer;
+    color: red;
+}

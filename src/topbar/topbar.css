@@ -1,0 +1,61 @@
+.top
+{
+    width:100%;
+    height: 55px;
+    background-color: black;
+    position:sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: beige;
+    padding-left: 20px;
+    z-index:999;
+}
+
+.tL,.tR{
+    flex:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.C
+{
+    flex:6;
+}
+
+.topImage
+{
+    width: 35px;
+    height: 25px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.topIcon{
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.topList{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topListItem{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.topSearch
+{
+    color: beige;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 10px;
+}

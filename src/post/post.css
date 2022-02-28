@@ -1,0 +1,52 @@
+.post
+{
+    width: 385px;
+    margin: 0px 25px 35px 25px;
+}
+
+.postCat
+{
+    font-size: 15px;
+    font-family: 'Varela', sans-serif;
+    padding: 10px;
+
+}
+
+.postTitle
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+
+}
+
+.postDate
+{
+    font-size: 14px;
+    font-family: 'Lora', serif;
+}
+.postImg
+{
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+}
+
+.postInfo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postDesc
+{
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 15px;
+    font-family: 'Varela', sans-serif;
+}
